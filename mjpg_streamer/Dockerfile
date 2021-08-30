@@ -1,7 +1,7 @@
 # DOCKER-VERSION 1.4.9
 FROM    ubuntu
 
-MAINTAINER Have-Purple <have-purple@nannerb.org>
+MAINTAINER Have-Purple
 
 # Based off of instructions by Miguel Grinberg 
 # http://blog.miguelgrinberg.com/post/how-to-build-and-run-mjpg-streamer-on-the-raspberry-pi
