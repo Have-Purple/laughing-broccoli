@@ -19,13 +19,13 @@ services:
       - MJPG_STREAMER_INPUT=-n -r 1920x1080
       - AUTOMIGRATE=true
 
-    mjpeg-streamer:
-      restart: always
-      build: ./mjpg_streamer
-      devices:
-        - /dev/video0
-      ports:
-        - 8080:8080
+  mjpg_streamer:
+    restart: unless-stopped
+    build: ./mjpg_streamer
+    devices:
+      - /dev/video0
+    ports:
+      - 8080:8080
 
 volumes:
   octoprint:
