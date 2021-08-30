@@ -3,7 +3,7 @@ mjpg_Streamer Docker File
 
 open terminal
 
-clone this repo git clone https://github.com/Aaltuj/octoprint-docker-setup.git
+clone this repo git clone https://github.com/Have-Purple/laughing-broccoli.git
 
 cd into cd octoprint-docker-setup
 
