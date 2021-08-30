@@ -19,7 +19,7 @@ Stream URL: http://{IP or HOSTNAME}:8080/?action=stream
 
 Snapshot URL: http://{IP or HOSTNAME}:8080/?action=snapshot
 
-Path to FFMPEG: /opt/ffmpeg/ffmpeg
+Path to FFMPEG: /usr/bin/ffmpeg
 
 TIP: use docker inspect {container-name of mjp-stream} to find the IP adress for the snapshot url
 
