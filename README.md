@@ -23,9 +23,10 @@ Path to FFMPEG: /opt/ffmpeg/ffmpeg
 
 TIP: use docker inspect {container-name of mjp-stream} to find the IP adress for the snapshot url
 
-
 Start Octoprint and mjpg-streamer on boot
 
 Add docker to systemctl by running: sudo systemctl enable docker
+
 run docker-compose up -d once in the clone repo location
+
 you should now have a working Octoprint with webcam support. Don't forget to update the usb devices and webcam locations when necessary
