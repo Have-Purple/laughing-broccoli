@@ -20,8 +20,16 @@ services:
       - AUTOMIGRATE=true
 
     mjpeg-streamer:
-      restart: unless-stopped
-      image: mjpg-streamer
+      restart: always
+      build: ./mjpg_streamer
+      devices:
+        - /dev/video0
+      ports:
+        - 8080:8080
+
+volumes:
+  octoprint:
+     name: octoprint-mjpg_streamer
 
 
 
