@@ -5,7 +5,7 @@ open terminal
 
 clone this repo git clone https://github.com/Have-Purple/laughing-broccoli.git
 
-cd into cd octoprint-docker-setup
+cd into /laughing-broccoli folder
 
 run docker-compose up -d
 
