@@ -11,7 +11,7 @@ services:
       - /dev/ttyACM0:/dev/ttyACM0
       - /dev/video0:/dev/video0
     volumes:
-      - /home/matt/docker_images/octoprint:/octoprint
+      - /home/matt/docker_images/octoprint/data:/octoprint
 
     environment:
       - ENABLE_MJPG_STREAMER=true
@@ -48,6 +48,6 @@ volumes:
     environment:
       - PUID=0
       - GUID=0
-      - TZ=America/Chicago
+      - TZ=America/Denver
     volumes:
-       - /home/matt/docker_images/octoprint:/octoprint
+       - /home/matt/docker_images/octoprint/data:/octoprint
